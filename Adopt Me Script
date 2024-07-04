@@ -1,0 +1,156 @@
+if game.PlaceId == 920587237 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Lucky's Hub | [SUMMER🎡] Adopt Me!", HidePremium = false, IntroText = "Lucky's Hub", SaveConfig = true, ConfigFolder = "LuckyConfig"})
+
+
+
+-- Tabs
+local FarmTab = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local TradeTab = Window:MakeTab({
+	Name = "Trade",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CharacterTab = Window:MakeTab({
+	Name = "Character Options",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Toggles
+FarmTab:AddToggle({
+	Name = "Auto Chores",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Speed",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Fly",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Jump",
+	Default = false,
+if game.PlaceId == 920587237 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Lucky's Hub | [SUMMER🎡] Adopt Me!", HidePremium = false, IntroText = "Lucky's Hub", SaveConfig = true, ConfigFolder = "LuckyConfig"})
+
+
+
+-- Tabs
+local FarmTab = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local TradeTab = Window:MakeTab({
+	Name = "Trade",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CharacterTab = Window:MakeTab({
+	Name = "Character Options",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Toggles
+FarmTab:AddToggle({
+	Name = "Auto Chores",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Speed",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Fly",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Jump",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+CharacterTab:AddToggle({
+	Name = "Invisibility",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Farm Eggs",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+FarmTab:AddToggle({
+	Name = "Farm Minigames",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+TradeTab:AddToggle({
+	Name = "Freeze Trade",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+TradeTab:AddToggle({
+	Name = "Fake Add",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+
+
+end
+OrionLib:Init()
